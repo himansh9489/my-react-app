@@ -26,6 +26,7 @@ function App() {
   return (
     <>
       <h1>Welcome to React</h1>
+      <h2>I am Learning reactJs</h2>
       <Counter startValue={12} key={1} />
     </>
   );
