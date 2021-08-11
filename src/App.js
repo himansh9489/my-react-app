@@ -1,8 +1,8 @@
 import { useState } from "react";
 
 function Counter(props) {
-  const { startValue, key } = props;
-  const initialValue = 0;
+  const { startValue } = props;
+  let initialValue = 0;
   if (startValue) {
     initialValue = startValue;
   }
@@ -27,7 +27,7 @@ function App() {
     <>
       <h1>Welcome to React</h1>
       <h2>I am Learning reactJs</h2>
-      <Counter startValue={12} key={1} />
+      <Counter startValue={12} />
     </>
   );
 }
