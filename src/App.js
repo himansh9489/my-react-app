@@ -18,6 +18,15 @@ function Counter(props) {
       >
         Inc
       </button>
+      <button
+        onClick={function () {
+          if (num > 0) {
+            setNum(num - 1);
+          }
+        }}
+      >
+        Dec
+      </button>
     </div>
   );
 }
